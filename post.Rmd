@@ -1,0 +1,22 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+If we want to embed a website link in the website, we could use `[showing in text](the link of the website)`
+
+eg. You can use the search engine [google](google.com).
+
+If we want to add an image in the content, we could use `![](image.jpg)`.
+
+eg. ![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWw1YXpkaWIyenRrMjVhNG03cGF0bzdrdGZ0aHVtZHY4OTlhdHFodiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u5BzptR1OTZ04/giphy.webp)
+
+
