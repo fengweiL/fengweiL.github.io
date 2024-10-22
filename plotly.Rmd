@@ -1,5 +1,5 @@
 ---
-title: "dashboard"
+title: "plotly"
 author: "Fengwei Lei"
 date: "2024-10-22"
 output: html_document
