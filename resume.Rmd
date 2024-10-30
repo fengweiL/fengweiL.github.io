@@ -1,22 +1,73 @@
 ---
-title: "Resume"
+title: "Fengwei Lei - Resume"
+description: "Personal Webpage of Fengwei Lei"
+author: "Fengwei Lei"
 output: 
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-This is a page for introducing my academic and professional experience.
+# Fengwei Lei
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+**Location**: Guangzhou, China  
+**Contact**: fengwei20210305@163.com  
+**Phone**: +86-17752544008  
 
-If we want to embed a website link in the website, we could use `[showing in text](the link of the website)`
+I am currently pursuing a Master’s degree in Biostatistics at Columbia University. My academic journey has included a dual degree from Jinan University and the University of Birmingham, where I graduated with first-class honors in Economic Statistics and Applied Mathematics. 
 
-eg. You can use the search engine [google](google.com).
+---
 
-If we want to add an image in the content, we could use `![](image.jpg)`.
+## Education
 
-eg. ![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWw1YXpkaWIyenRrMjVhNG03cGF0bzdrdGZ0aHVtZHY4OTlhdHFodiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u5BzptR1OTZ04/giphy.webp)
+**Columbia University**  
+Master of Science in Biostatistics (Ongoing)
 
+**Jinan University-University of Birmingham Joint Institute**  
+Bachelor of Economics in Economic Statistics  
+Bachelor of Science in Applied Mathematics with Statistics  
+- **GPA**: 4.10 / 4.25  
+- **Honors**: UK First Class Honors Degree  
 
+---
+
+## Research Projects
+
+### Stock Market Return Forecasting Based on Convolutional Neural Network
+**Institution**: Jinan University Evolutionary Ensemble Learning Research Group  
+**Duration**: August 2023 - Present  
+- Predicted stock values using Fourier Trigonometric Series and Convolutional Neural Network (CNN).
+- Employed Recurrent Neural Networks with Back-propagation Through Time and a Sliding Window Algorithm for forecasting.
+
+### Cardiovascular Disease Prediction Using Longitudinal Data
+**Event**: National Statistical Contest in Modeling  
+**Duration**: April 2023 - June 2023  
+- Developed a Linear Mixed-Effects Model and compared model fit with AIC and BIC.
+- Constructed a Cox Modeling Framework and evaluated it with ROC curve visualization.
+
+### The Impact of Education on Health
+**Individual Project**  
+**Duration**: April 2022 - May 2022  
+- Created a Two-stage Least Squares Regression Model using instrumental variables to study the impact of education on health.
+
+---
+
+## Professional Experience
+
+**Data Analytics Intern**  
+**Company**: Unicom (Guangdong) Industrial Internet Co., Ltd.  
+**Duration**: August 2023 - Present  
+- Built a data warehouse with SQL and managed ETL processes.
+- Collected and integrated data from 47 systems, visualized statistics in Tableau, and proposed optimizations.
+
+---
+
+## Skills
+
+- **Programming**: R, Python, SQL, Stata
+- **Data Visualization**: Tableau, Microsoft Office
+- **Extracurriculars**: Reading, Jogging, Movies
+
+---
+
+This webpage serves as a brief overview of my academic and professional journey, highlighting key projects and skills. Thank you for visiting!
