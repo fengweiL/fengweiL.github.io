@@ -1,0 +1,113 @@
+---
+title: "NY NOAA Data Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(RColorBrewer)
+viridis_palette = colorRampPalette(brewer.pal(8, "Dark2"))(12)
+```
+
+```{r}
+data("ny_noaa")
+
+ny_noaa_sample = ny_noaa  |> 
+  filter(!is.na(tmax), !is.na(tmin), !is.na(prcp)) |> 
+  mutate(date = as.character(date)) |> 
+  separate(date, into = c("year", "month", "day"), convert=TRUE)  |> 
+  mutate(
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin),
+    tmax= tmax /10,
+    tmin=tmin/10,
+    prcp=prcp/10) |> 
+  sample_n(1000)
+
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+temp_scatter = ny_noaa_sample  |> 
+  plot_ly(
+    x = ~tmin, 
+    y = ~tmax, 
+    type = 'scatter', 
+    mode = 'markers', 
+    color = ~factor(month, levels = 1:12, labels = month.name),
+    colors = viridis_palette,
+    marker = list(size = 7, opacity = 0.6)
+  )  |> 
+  layout(
+    title = "Scatter Plot of Max vs Min Temperature by Month",
+    xaxis = list(title = "Min Temperature (°C)"),
+    yaxis = list(title = "Max Temperature (°C)"),
+    legend = list(title = list(text = "Month"))
+  )
+
+temp_scatter
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+temp_boxplot = ny_noaa_sample  |> 
+  plot_ly(
+    x = ~factor(month, levels = 1:12, labels = month.name),
+    y = ~tmax,
+    type = 'box',
+    boxpoints = 'all',
+    jitter = 0.3,
+    pointpos = -1.8,
+    marker = list(color = 'rgba(93, 164, 214, 0.5)')
+  )  |> 
+  layout(
+    title = "Monthly Distribution of Max Temperature",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Max Temperature (°C)")
+  )
+
+temp_boxplot
+```
+
+### Chart C
+
+```{r}
+monthly_precip = ny_noaa_sample  |> 
+  group_by(month)  |> 
+  summarize(avg_precip = mean(prcp, na.rm = TRUE))
+
+precip_barplot = monthly_precip  |> 
+  plot_ly(
+    x = ~factor(month, levels = 1:12, labels = month.name),
+    y = ~avg_precip,
+    type = 'bar',
+    marker = list(color = 'rgba(255, 99, 71, 0.6)')
+  )  |> 
+  layout(
+    title = "Average Monthly Precipitation",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Average Precipitation (mm)")
+  )
+
+precip_barplot
+```
+
