@@ -1,8 +1,28 @@
 ---
-title: "This is the home page"
+title: "Welcome to My Personal Website"
 output: 
   html_document:
     toc: true
     toc_float: true
     theme: flatly
 ---
+
+Welcome to my personal website! This site serves as a hub for my professional profile, showcasing my skills, experiences, and interests. 
+
+## Overview
+
+On this website, you will find:
+
+- **About Me Page**: A brief introduction to who I am, my interests, and what drives me.
+- **Resume Page**: A detailed overview of my educational background, work experiences, and skills.
+- **Dashboard**: A visual representation of NY NOAA Data.
+
+Feel free to navigate through the pages to learn more about me and my work!
+
+## Links
+
+- [About Me Page](about.html)
+- [Resume Page](resume.html)
+- [Dashboard](dashboard.html)
+
+Thank you for visiting!
