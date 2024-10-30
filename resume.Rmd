@@ -7,6 +7,7 @@ output:
     toc_float: true
     theme: flatly
     highlight: tango
+    css: styles.css
 ---
 
 # Fengwei Lei
@@ -29,11 +30,13 @@ I am currently pursuing a Master’s degree in Biostatistics at Columbia Univers
 **University of Birmingham (School of Mathematics)**  
 *Bachelor of Science in Applied Mathematics with Statistics*  
 2020 - 2024  
+
 - **Honors**: UK First Class Honors Degree  
 
 **Jinan University**  
 *Bachelor of Economics in Economic Statistics*  
 2020 - 2024  
+
 - **GPA**: 4.10 / 4.25  
 - **Rank**: 3 / 70  
 
@@ -41,22 +44,25 @@ I am currently pursuing a Master’s degree in Biostatistics at Columbia Univers
 
 ## Research Projects
 
-### Stock Market Return Forecasting Based on Convolutional Neural Network
+#### **Stock Market Return Forecasting Based on Convolutional Neural Network**
 **Institution**: Jinan University Evolutionary Ensemble Learning Research Group  
 **Duration**: August 2023 - April 2024  
+
 - Predicted stock values using Fourier Trigonometric Series and Convolutional Neural Networks (CNN).
 - Trained Recurrent Neural Networks with Back-propagation Through Time and applied a Sliding Window Algorithm for trend forecasting.
 
-### Cardiovascular Disease Prediction Using Longitudinal Data
+#### **Cardiovascular Disease Prediction Using Longitudinal Data**
 **Event**: National Statistical Contest in Modeling  
 **Duration**: April 2023 - June 2023  
+
 - Developed a Linear Mixed-Effects Model and assessed fit using AIC and BIC.
 - Incorporated key variables into the Cox Proportional Hazards Model, creating a Cox Framework with functional principal component analysis.
 - Evaluated the method using ROC curve visualization and calculated the area under the curve.
 
-### The Impact of Education on Health
+#### **The Impact of Education on Health**
 **Individual Project**  
 **Duration**: April 2022 - May 2022  
+
 - Analyzed 8,545 data entries using a Two-stage Least Squares Regression Model to tackle endogeneity issues.
 - Created an instrumental variable to estimate "Years of Schooling" and ran a second-stage regression model on computed values.
 
@@ -67,6 +73,7 @@ I am currently pursuing a Master’s degree in Biostatistics at Columbia Univers
 **Data Analytics Intern**  
 *Unicom (Guangdong, China) Industrial Internet Co., Ltd.*  
 **Duration**: August 2023 - January 2024  
+
 - Developed a data warehouse to connect Operational and Application Data Stores using SQL.
 - Managed an ETL framework and integrated data from 47 medical systems at the Third Affiliated Hospital of Sun Yat-sen University.
 - Created visualizations of outpatient service data in Tableau, providing optimization insights based on trend analysis.
