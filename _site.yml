@@ -15,4 +15,4 @@ navbar:
       href: http://github.com/fengweiL/
 output:
   html_document:
-    theme: lumen
+    theme: flatly

@@ -1,33 +1,41 @@
 ---
-title: "Fengwei Lei - Resume"
+title: "Resume"
 description: "Personal Webpage of Fengwei Lei"
-author: "Fengwei Lei"
 output: 
   html_document:
     toc: true
     toc_float: true
+    theme: flatly
+    highlight: tango
 ---
 
 # Fengwei Lei
 
-**Location**: Guangzhou, China  
-**Contact**: fengwei20210305@163.com  
-**Phone**: +86-17752544008  
+**Location**: New York, United States  
+**Contact**: [fl2715@cumc.columbia.edu](mailto:fl2715@cumc.columbia.edu)  
+**Phone**: +1-646-235-9028  
 
-I am currently pursuing a Master’s degree in Biostatistics at Columbia University. My academic journey has included a dual degree from Jinan University and the University of Birmingham, where I graduated with first-class honors in Economic Statistics and Applied Mathematics. 
+I am currently pursuing a Master’s degree in Biostatistics at Columbia University, specializing in public health data science. My academic background includes a dual degree from Jinan University and the University of Birmingham, where I graduated with first-class honors in Economic Statistics and Applied Mathematics.
 
 ---
 
 ## Education
 
 **Columbia University**  
-Master of Science in Biostatistics (Ongoing)
+*Master of Science in Biostatistics*  
+*Public Health Data Science Track*  
+2024 - 2026 (expected)
 
-**Jinan University-University of Birmingham Joint Institute**  
-Bachelor of Economics in Economic Statistics  
-Bachelor of Science in Applied Mathematics with Statistics  
-- **GPA**: 4.10 / 4.25  
+**University of Birmingham (School of Mathematics)**  
+*Bachelor of Science in Applied Mathematics with Statistics*  
+2020 - 2024  
 - **Honors**: UK First Class Honors Degree  
+
+**Jinan University**  
+*Bachelor of Economics in Economic Statistics*  
+2020 - 2024  
+- **GPA**: 4.10 / 4.25  
+- **Rank**: 3 / 70  
 
 ---
 
@@ -35,39 +43,43 @@ Bachelor of Science in Applied Mathematics with Statistics
 
 ### Stock Market Return Forecasting Based on Convolutional Neural Network
 **Institution**: Jinan University Evolutionary Ensemble Learning Research Group  
-**Duration**: August 2023 - Present  
-- Predicted stock values using Fourier Trigonometric Series and Convolutional Neural Network (CNN).
-- Employed Recurrent Neural Networks with Back-propagation Through Time and a Sliding Window Algorithm for forecasting.
+**Duration**: August 2023 - April 2024  
+- Predicted stock values using Fourier Trigonometric Series and Convolutional Neural Networks (CNN).
+- Trained Recurrent Neural Networks with Back-propagation Through Time and applied a Sliding Window Algorithm for trend forecasting.
 
 ### Cardiovascular Disease Prediction Using Longitudinal Data
 **Event**: National Statistical Contest in Modeling  
 **Duration**: April 2023 - June 2023  
-- Developed a Linear Mixed-Effects Model and compared model fit with AIC and BIC.
-- Constructed a Cox Modeling Framework and evaluated it with ROC curve visualization.
+- Developed a Linear Mixed-Effects Model and assessed fit using AIC and BIC.
+- Incorporated key variables into the Cox Proportional Hazards Model, creating a Cox Framework with functional principal component analysis.
+- Evaluated the method using ROC curve visualization and calculated the area under the curve.
 
 ### The Impact of Education on Health
 **Individual Project**  
 **Duration**: April 2022 - May 2022  
-- Created a Two-stage Least Squares Regression Model using instrumental variables to study the impact of education on health.
+- Analyzed 8,545 data entries using a Two-stage Least Squares Regression Model to tackle endogeneity issues.
+- Created an instrumental variable to estimate "Years of Schooling" and ran a second-stage regression model on computed values.
 
 ---
 
 ## Professional Experience
 
 **Data Analytics Intern**  
-**Company**: Unicom (Guangdong) Industrial Internet Co., Ltd.  
-**Duration**: August 2023 - Present  
-- Built a data warehouse with SQL and managed ETL processes.
-- Collected and integrated data from 47 systems, visualized statistics in Tableau, and proposed optimizations.
+*Unicom (Guangdong, China) Industrial Internet Co., Ltd.*  
+**Duration**: August 2023 - January 2024  
+- Developed a data warehouse to connect Operational and Application Data Stores using SQL.
+- Managed an ETL framework and integrated data from 47 medical systems at the Third Affiliated Hospital of Sun Yat-sen University.
+- Created visualizations of outpatient service data in Tableau, providing optimization insights based on trend analysis.
+- Generated 1,000 rows of synthetic data with Python (pandas) for testing, then loaded into Apache Doris.
 
 ---
 
 ## Skills
 
-- **Programming**: R, Python, SQL, Stata
-- **Data Visualization**: Tableau, Microsoft Office
-- **Extracurriculars**: Reading, Jogging, Movies
+- **Programming**: R, Python, SQL, Stata  
+- **Data Visualization**: Tableau, Microsoft Office  
+- **Extracurriculars**: Reading, Jogging, Movies  
 
 ---
 
-This webpage serves as a brief overview of my academic and professional journey, highlighting key projects and skills. Thank you for visiting!
+Thank you for visiting my webpage. Here, I have presented my academic and professional journey, including my core projects and skills.
